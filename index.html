@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiPotter</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="inknut-antiqua-regular">
+        <a href="index.html"><img  class="logo" src="/img/logo.png" alt=""></a>
+        
+        <nav id="nav">
+            <button id="btn-mobile">
+                <img class="menumob" src="/img/menu.png">
+            </button>
+            <ul id="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#historia">HISTORIA</a></li>
+                <li><a href="#personagens">PERSONAGENS</a></li>
+                <li><a href="#footer">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home" class="inknut-antiqua-light">
+        <h1>BEM VINDO AO WIKI POTTER</h1>
+        <div>
+            
+            <p>Seja bem-vindo ao mundo mágico de Harry Potter! Em nosso site, você encontrará uma jornada emocionante pelos corredores de Hogwarts e além. Explore os detalhes da história e mergulhe nas profundezas dos personagens que encantaram gerações.</p>
+        </div>
+        <div>
+            <h1>HISTORIA</h1>
+            <p>História de Harry Potter: Descubra a história cativante do jovem bruxo Harry Potter, desde sua descoberta do mundo mágico até suas épicas batalhas contra o malévolo Lord Voldemort. Conheça os principais eventos que moldaram o destino de Harry e seus amigos, incluindo sua jornada em busca das misteriosas Horcruxes.</p>
+        </div>
+        <div>
+            <h1>PERSONAGENS</h1>
+            <p>Aprofunde-se na rica galeria de personagens que povoam o universo de Harry Potter. De Hermione Granger a Severo Snape, explore as personalidades únicas e os papéis cruciais que desempenham na história de Harry.</p>
+        </div>
+    </main>
+
+    <section id="historia" class="inknut-antiqua-light">
+        <div>
+            <h1>HISTORIA</h1>
+            <p>"Harry Potter" é uma série de sete livros escrita por J.K. Rowling que conta a história de um jovem bruxo chamado Harry Potter. A trama se desenvolve ao redor do conflito entre Harry e o bruxo das trevas, Lord Voldemort, que matou os pais de Harry quando ele era apenas um bebê, mas fracassou em matá-lo. Harry cresce com seus tios não-mágicos, os Dursleys, até descobrir, aos onze anos, que é um bruxo e recebe uma carta de aceitação para a Escola de Magia e Bruxaria de Hogwarts. Lá, ele faz amizade com Ron Weasley e Hermione Granger, e os três enfrentam uma série de desafios, incluindo confrontos com Voldemort e seus seguidores, os Comensais da Morte. Ao longo dos livros, Harry descobre mais sobre sua própria história, incluindo seu destino ligado à derrota de Voldemort. A série combina elementos de aventura, magia, amizade e crescimento pessoal, cativando leitores de todas as idades ao redor do mundo.</p>
+        </div>
+        <img class="img" src="/img/HistoriaHarry.png" alt="">
+        <img class="img-mob" src="/img/livros-mob.png" alt="">
+    </section>
+
+
+    <section id="personagens" class="inknut-antiqua-light">
+        <h1>PERSONAGENS</h1>
+        <div id="filtro">
+            <form action="" method="get">
+               
+                <input type="text" name="search" id="characterId">
+                <button id="btn-pesquisar">PESQUISAR</button>
+            </form>
+            
+            
+        </div>
+        <div class="characters-container">
+            <div id="characters-list">
+            <!-- OBJETOS CRIADOS NO JS ABAIXO:
+                <DIV>
+                <H3></H3>
+                <IMG>
+                <P></P>
+               </DIV>
+            -->
+            </div>
+        </div>
+    </section>
+
+     <footer id="footer" class="inknut-antiqua-light">
+        <h1>ELIAN ARAUJO E HENRIQUE PEREIRA</h1>
+     </footer>
+
+    <script src="/js/personagens.js" defer></script>
+    <script src="/js/menu.js" defer></script>
+</body>
+</html>
